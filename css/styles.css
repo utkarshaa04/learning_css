@@ -1,0 +1,20 @@
+h3{
+    color: orange;
+    background-color: aquamarine;
+    font-size: 40px;
+}
+p{
+    color: purple;
+    font-size: 20px;
+}
+caption{
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+thead,tfoot{
+        background-color: lightgrey;
+        /* here we have used group selector */
+    }
