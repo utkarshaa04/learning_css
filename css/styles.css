@@ -17,4 +17,5 @@ caption{
 thead,tfoot{
         background-color: lightgrey;
         /* here we have used group selector */
+        /* text formats in css */
     }
