@@ -2,11 +2,11 @@ h3{
     color: orange;
     background-color: aquamarine;
     font-size: 40px;
-}
-p{
+} 
+ p{
     color: purple;
     font-size: 20px;
-}
+ }
 caption{
     color: brown;
     font-size: 30px;
@@ -18,4 +18,559 @@ thead,tfoot{
         background-color: lightgrey;
         /* here we have used group selector */
         /* text formats in css */
-    }
+}
+/* CLASS SELECTORS  */
+ .t_transform_uppercase{
+    text-transform: uppercase;
+}
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+.t_transform_capitalize{
+    text-transform:capitalize;
+}
+.t_align_center{
+    text-align: center;
+}
+.t_align_right{
+    text-align: right;
+}
+.t_decor_over{
+    text-decoration: overline;
+}
+.t_decor_line{
+    text-decoration: line-through;
+}
+.t_decor_under{
+    text-decoration: underline;
+}
+.t_decor{
+    text-decoration: overline underline line-through;
+}
+/* In Css class selector is mainly used */
+
+.t_indent{
+    text-indent: 50px;
+}
+.t_letter_spacing{
+    letter-spacing: 20px;
+}
+.t_word_spacing{
+    word-spacing: 20px;
+}
+.t_shadow{
+    color: black;
+    text-shadow: 5px 5px 5px grey;
+    font-size: 70px;
+    text-align: center;
+}
+.t_shadow_2{
+    color: blueviolet;
+    text-shadow: 4px 5px 7px red;
+    font-size: 40px;
+    text-align: center;
+}
+.t_shadow_3{
+    color: purple;
+    text-shadow: 5px 7px 7px yellow;
+    font-size: 60px;
+    text-align: center;
+} */
+/* pngtree.com */
+/* font family */
+.img_b_shadow{
+    box-shadow: 3px 4px 7px red;
+    width: 300px;
+    
+}
+.img_b_shadow2{
+    box-shadow: 3px 4px 7px rgb(167,216,68);
+    width: 300px;
+    
+}
+.img_b_shadow3{
+    box-shadow: 3px 4px 7px #A12BA1;
+    width: 300px;
+    
+}
+.img_d_shadow{
+    filter: drop-shadow(5px 5px 5px yellow);
+    width: 300px;
+}
+.img_d_shadow2{
+    filter: drop-shadow(5px 5px 5px darkblue);
+    width: 300px;
+}
+
+.f_family{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+.f_family2{
+    font-family: 'Lucida Handwriting', cursive;
+    font-weight: bold;
+}
+
+.heading1{
+    color: blue; 
+    font-size: 70px;
+}
+
+#t_decor{
+    text-decoration: underline overline;
+}
+
+.t_transform{
+    text-transform: uppercase;
+}
+
+/* solid,dashed,double,dashed,dotted,inset,outset,groove ridge */
+.b_img1{
+    width: 400px;
+    border: 7px groove black;
+}
+.b_img2{
+    width: 400px;
+    border: 7px  dashed brown;
+}
+.b_img3{
+    width: 400px;
+    border: 8px outset yellow;
+}
+.b_img4{
+    height: 400px;
+    border: 5px solid;
+    border-width: 5px;
+    border-top: blueviolet;
+    border-right-color: green;
+    border-bottom-color: red;
+    border-bottom-color: blue;
+    border-color: red blue green yellow;
+}
+
+.b_img5{
+    width: 400px;
+    border: 9px double orange;
+    border-radius: 50px 70px 50px 70px;
+}
+.simple{
+    border: 5px solid red;
+}
+.box_model{
+    border: 5px solid red;
+    padding: 40px;
+    margin: 50px;
+    padding: 30px 60px;
+}
+.box_model1{
+    border: 5px solid red;
+    margin: 20px; 
+    margin: 20px 10px; 
+
+}
+/* positions in css and flex*/
+ .box{
+    width: 200px;
+    height: 100px;
+    background-color: gainsboro;
+    border: 4px solid red;
+    margin-bottom: 10px;
+} 
+.box1{
+    position: static;
+    /* top: 200px; Not Applicable */
+ }
+.box2{
+    position: relative;
+    top: 30px;
+    left: 150px;
+    background-color: lightblue;
+}
+.box3{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    background-color: lightgreen;
+}
+.box4{
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+    background-color: lightcoral;
+}
+.box5{
+    position: sticky;
+    top: 0px;
+    background-color: lightgoldenrodyellow;
+}
+.rel{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    left: 100px;
+    background-color: antiquewhite;
+}
+#tv{
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    left: 100px;
+    background-color: rgb(147, 48, 240);
+}
+#sofa{
+    position: absolute;
+    height: 100px;
+    width: 250px;
+    left: 80px;
+    top: 120px;
+    background-color: rgb(250, 192, 83);
+}
+#fridge{
+    position: absolute;
+    height: 150px;
+    width: 80px;
+    left: 320px;
+    top: 250px;
+    background-color: rgb(247, 113, 113);
+} */ */
+body{
+    background-image: url("/images/bg_img.jpg");
+    background-repeat: repeat-y;
+    background-size: cover;} 
+
+.heading{
+    color: white;
+    text-align: center;
+
+}
+.t_para{
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.linear{
+    height: 400px;
+    background: linear-gradient(orange,white,green);
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.radial{
+    height: 400px;
+    background: radial-gradient(circle at left top, yellow,red,black);
+}
+.conical{
+    height: 400px;
+    background: conic-gradient(from 90deg, red,yellow,green,blue,red);
+}
+.flex-item{
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: rgb(192, 70, 70);
+    color: white;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.gallery{
+    display: flex;
+    height:150px;
+    justify-content: space-around;
+    border: 2px solid black;
+    margin-top: 10px;
+    box-shadow: 3px 4px 7px red;
+}
+
+h1:hover{
+    margin-top: 10px;
+    padding: 20px;
+    background: linear-gradient(black grey);
+}
+.para_bg:hover{
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    background: linear-gradient(black grey);
+}
+h2:active{
+    color: red;
+    font-size: 40px;
+    cursor: pointer;
+}
+input:focus{
+    background-color: black;
+    color: white;
+    border: 8px solid rgb(253, 192, 192);
+}
+p::first-letter{
+    color: red;
+    font-size: 30px;
+}
+p::first-line{
+    color:rgb(91, 28, 151);
+}
+::selection{
+    color: red;
+    background-color: yellow;
+}
+ul{
+    width: 200px;
+    padding: 10px;
+    list-style-type: none;
+    font-weight: 900;
+}
+li{
+    padding: 10px;
+    border: 3px solid grey;
+    margin-bottom: 6px;
+    border-radius: 10px;
+}
+.odd{
+    background-color: red;
+}
+.even{
+    background-color: blue;
+}
+li:nth-child(odd){
+    background-color:rgb(255, 164, 164);
+ }
+li:nth-child(even){
+    background-color:#b7b7ff;
+ }
+li:first-child{
+    background-color: antiquewhite;
+}
+li:last-child{
+    background-color: rgb(255, 200, 161);
+}
+li:nth-child(5){
+    background-color: chartreuse;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+     /* horizontal center */
+
+     margin-left: 30px;
+     padding-top: 50px;
+     gap: 30px;
+}
+.box{
+    border: 2px solid black;
+    background-color: darkorange;
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    transition: transform 4s ease-in 500ms;
+}
+.box-1:hover{
+    transform: translate(225px,325px);
+}
+.box-2:hover{
+    transform: translateX(80px);
+}
+.box-3:hover{
+    transform: translateY(80px);
+}
+.box-4:hover{
+    transform: rotate(180deg);
+}
+.box-5:hover{
+    transform: skew(10deg, 20deg);
+}
+.box-6:hover{
+    transform: skewX(40deg);
+}
+.box-7:hover{
+    transform: skewY(10deg);
+}
+.box-8:hover{
+    transform: scale(1.5);
+} 
+.box-9:hover{
+    transform: ;
+}
+div{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    /* background-color: red; */
+    position: relative;
+    animation: movingbox;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-direction: alternate;
+}
+@keyframes movingbox{
+     0%{background-color:  red; left: 0px;top: 0px;}
+    25%{background-color: yellow; left: 300px;top: 0px;}
+    50%{background-color: blueviolet; left: 300px;top: 300px;}
+    75%{background-color: aquamarine; left: 0px;top: 300px;}
+    100%{background-color: red; left: 0px;top: 0px;} 
+   0%{background-image: url('/images/margaritas.jpg');left:0px;top: 0px;}
+   25%{background-image: url('/images/lily.jpg'); left: 300px;top: 0px;}
+   50%{background-image: url('/images/kite.png');left: 300px;top: 300px;}
+   75%{background-image: url('/images/flower-7937334_640.jpg');left: 0px;top: 300px;}
+   100%{background-image: url('/images/margaritas.jpg'); left: 0px;top: 0px;}
+
+} 
+
+.text-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    font-size: 70px;
+    font-weight: 800px;
+    perspective: 50px;
+}
+.text-container > b{
+    height: 70px;
+    box-shadow: 0px 30px 15px grey;
+    background: linear-gradient(to right,red, orange,yellow,black);
+    background-clip: text;
+    color: transparent;
+    transform-origin: bottom;
+    transform: rotate(-85deg);
+    animation: getUp 10s infinite;
+}
+.text-container>b:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.text-container>b:nth-child(2)
+{
+    animation-delay: 0.15s;
+}
+.text-container>b:nth-child(3)
+{
+    animation-delay: 0.30;
+}
+.text-container>b:nth-child(4)
+{
+    animation-delay: 0.45;
+}
+.text-container>b:nth-child(5)
+{
+    animation-delay: 0.60;
+}
+.text-container>b:nth-child(6)
+{
+    animation-delay: 0.75;
+}
+.text-container>b:nth-child(7)
+{
+    animation-delay: 0.80;
+}
+.text-container>b:nth-child(8)
+{
+    animation-delay: 1s;
+}
+@keyframes getUp{
+    from{transform:rotateX(-85deg);}
+    15%,60%{transform: rotateX(0);}
+    60%,to{transform: rotateX(-85deg);}
+}
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.swing{
+    animation: swing 1.5s ease-in-out infinite alternate;
+    transform-origin: top center;
+    position: relative;
+}
+.swing img{
+    width: 250px;
+    border: 14px groove gold;
+    box-shadow: 8px 8px 8px grey;
+    display: block;
+}
+.swing::before{
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6px;
+    height: 50px;
+    background: grey;
+}
+.swing::after{
+    content: "\2B24";
+    position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10px;
+    border-radius: 50%;
+}
+@keyframes swing{
+    0%{transform: rotate(3deg);}
+    100%{transform: rotate(-3deg);}
+}
+/* codepen simple css */
+
+.container{
+    position: relative;
+    margin: 100px;
+}
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    border: 3px solid white;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+}
+.blue{
+    background-color: blue;
+    left: 40px;
+}
+.red
+{
+    background-color: red;
+    left: 80px;
+    z-index: 1;
+}
+.red:hover{
+    background-color: yellow;
+    z-index: 40;
+}
+.green{
+    background-color: green;
+    left: 120px;
+}
